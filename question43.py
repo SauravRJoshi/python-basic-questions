@@ -1,0 +1,7 @@
+sample_tuple = (1,2,3,4,'Saurav Raj Joshi','Assignment','Python',7,8,90)
+print("Initial tuple is :",sample_tuple)
+list_to_remove = list(sample_tuple)
+print("After removing 5th item")
+list_to_remove.pop(4)
+sample_tuple = tuple(list_to_remove)
+print("Final tuple is :",sample_tuple)

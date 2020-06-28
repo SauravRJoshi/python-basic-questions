@@ -1,0 +1,7 @@
+sample_tuple = ('Saurav Raj Joshi',1,2,438,'Due date','pressure','learning','python','tanab')
+print("Our sample tuple is ",sample_tuple)
+print(sample_tuple[-1::-1])
+print(sample_tuple[0:])
+print(sample_tuple[2:6])
+print(sample_tuple[4])
+print(sample_tuple[2])
